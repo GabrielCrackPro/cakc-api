@@ -61,7 +61,7 @@ cd calc-api
 npm i
 ```
 
-- Start project running
+- Start project
 
 ```
 npm run dev
