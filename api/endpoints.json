@@ -11,19 +11,19 @@
     "route": "api/:operation/:expression",
     "description": "Get operations result",
     "operations": [
-    "add",
-    "subtract",
-    "multiply",
-    "divide",
-    "root",
-    "pow",
-    "factorial",
-    "cos",
-    "sin",
-    "tan",
-    "acos",
-    "asin",
-    "atan"
-  ]
+      "add",
+      "subtract",
+      "multiply",
+      "divide",
+      "root",
+      "pow",
+      "factorial",
+      "cos",
+      "sin",
+      "tan",
+      "acos",
+      "asin",
+      "atan"
+    ]
   }
 ]
