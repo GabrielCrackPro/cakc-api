@@ -8,7 +8,7 @@ API for performing math operations
 - Base URL
 
 ```
-https://calc-api-app.herokuapp.com/api/
+https://calc-api-app.herokuapp.com/
 ```
 
 ## Usage
