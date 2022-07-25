@@ -1,0 +1,29 @@
+[
+  {
+    "route": "api/",
+    "description": "API homepage"
+  },
+  {
+    "route": "api/endpoints",
+    "description": "Get this list of API endpoints"
+  },
+  {
+    "route": "api/:operation/:expression",
+    "description": "Get operations result",
+    "operations": [
+    "add",
+    "subtract",
+    "multiply",
+    "divide",
+    "root",
+    "pow",
+    "factorial",
+    "cos",
+    "sin",
+    "tan",
+    "acos",
+    "asin",
+    "atan"
+  ]
+  }
+]
