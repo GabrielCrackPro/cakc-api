@@ -11,19 +11,70 @@
     "route": "api/:operation/:expression",
     "description": "Get operations result",
     "operations": [
-      "add",
-      "subtract",
-      "multiply",
-      "divide",
-      "root",
-      "pow",
-      "factorial",
-      "cos",
-      "sin",
-      "tan",
-      "acos",
-      "asin",
-      "atan"
+      {
+        "name": "add",
+        "expression": "/api/add/:a+:b"
+      },
+      {
+        "name": "subtract",
+        "expression": "/api/subtract/:a-:b"
+      },
+      {
+        "name": "multiply",
+        "expression": "/api/multiply/:a*:b"
+      },
+      {
+        "name": "divide",
+        "expression": "/api/divide/:a//:b"
+      },
+      {
+        "name": "simplify",
+        "expression": "/api/simplify/:expression"
+      },
+      {
+        "name": "root",
+        "expression": "/api/root/:a"
+      },
+      {
+        "name": "pow",
+        "expression": "/api/pow/:a^:b"
+      },
+      {
+        "name": "factorial",
+        "expression": "/api/factorial/:a"
+      },
+      {
+        "name": "derivative",
+        "expression": "/api/derivative/:expression"
+      },
+      {
+        "name": "log",
+        "expression": "/api/log/:a"
+      },
+      {
+        "name": "cos",
+        "expression": "/api/cos/:a"
+      },
+      {
+        "name": "sin",
+        "expression": "/api/sin/:a"
+      },
+      {
+        "name": "tan",
+        "expression": "/api/tan/:a"
+      },
+      {
+        "name": "acos",
+        "expression": "/api/acos/:a"
+      },
+      {
+        "name": "asin",
+        "expression": "/api/asin/:a"
+      },
+      {
+        "name": "atan",
+        "expression": "/api/atan/:a"
+      }
     ]
   }
 ]
